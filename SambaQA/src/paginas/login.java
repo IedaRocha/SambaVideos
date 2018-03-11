@@ -20,7 +20,7 @@ public class login {
 	WebElement btnLogin;
 	
 	@FindBy (how = How.ID, using = "password_incorrect")
-	WebElement msgPwsIncorreta;
+	WebElement msgPwsIncorreta; //mensagem apresentada se senha incorreta
 	
 
 	//construtor
