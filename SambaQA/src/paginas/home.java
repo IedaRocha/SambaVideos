@@ -12,9 +12,12 @@ public class home {
 	}
 	
 	public void acessaHome() {
-		
+
 		driver.get(pagina); //carrega a página Home
 		driver.manage().window().maximize(); //maximiza a janela
+		System.out.println("- Página 'Home' apresentada com sucesso");
 	}
-
 }
+	
+	
+	

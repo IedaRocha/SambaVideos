@@ -1,28 +1,27 @@
 
 package config;
 
-//import org.openqa.selenium.WebDriver;
 
 public class dadosAcesso {
-	//WebDriver driver;
 
+	private String email;
+	private String senha;
+	
 	//construtor
 	public dadosAcesso() {
 		
 	}
 
-	protected String usuarioEmail(){
-		final String email;
+	public String usuarioEmail(){
 		
-		email = "avaliacao_qa_samba@sambatech.com.br";
+		this.email = "avaliacao_qa_samba@sambatech.com.br";
 		
 		return email;
 	}
 	
-	protected String usuarioSenha() {
-		final String senha;
+	public String usuarioSenha() {		
 		
-		senha = "123456789";
+		this.senha = "123456789";
 		
 		return senha;
 	}
